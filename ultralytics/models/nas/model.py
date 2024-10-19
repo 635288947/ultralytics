@@ -7,7 +7,7 @@ Example:
     from ultralytics import NAS
 
     model = NAS("yolo_nas_s")
-    results = model.predict("ultralytics/assets/bus.jpg")
+    results = model.predict("ultralytics/assets/test.jpg")
     ```
 """
 
@@ -35,7 +35,7 @@ class NAS(Model):
         from ultralytics import NAS
 
         model = NAS("yolo_nas_s")
-        results = model.predict("ultralytics/assets/bus.jpg")
+        results = model.predict("ultralytics/assets/test.jpg")
         ```
 
     Attributes:

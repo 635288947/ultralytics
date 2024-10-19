@@ -287,7 +287,7 @@ To use FastSAM for inference in Python, you can follow the example below:
 from ultralytics import FastSAM
 
 # Define an inference source
-source = "path/to/bus.jpg"
+source = "path/to/test.jpg"
 
 # Create a FastSAM model
 model = FastSAM("FastSAM-s.pt")  # or FastSAM-x.pt

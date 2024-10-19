@@ -136,8 +136,8 @@ model = NAS("yolo_nas_s.pt")
 # Validate the model on the COCO8 example dataset
 results = model.val(data="coco8.yaml")
 
-# Run inference with the YOLO-NAS-s model on the 'bus.jpg' image
-results = model("path/to/bus.jpg")
+# Run inference with the YOLO-NAS-s model on the 'test.jpg' image
+results = model("path/to/test.jpg")
 ```
 
 For more information, refer to the [Inference and Validation Examples](#inference-and-validation-examples).

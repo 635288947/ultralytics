@@ -201,7 +201,7 @@ Summary:
 Using `CUDA` EP and dynamic image size `--height 640 --width 480`
 
 ```bash
-cargo run --release -- --cuda --model ../assets/weights/yolov8m-dynamic.onnx --source ../assets/images/bus.jpg --plot --height 640 --width 480
+cargo run --release -- --cuda --model ../assets/weights/yolov8m-dynamic.onnx --source ../assets/images/test.jpg --plot --height 640 --width 480
 ```
 
 ### Pose Detection
@@ -209,7 +209,7 @@ cargo run --release -- --cuda --model ../assets/weights/yolov8m-dynamic.onnx --s
 using `TensorRT` EP
 
 ```bash
-cargo run --release -- --trt --model ../assets/weights/yolov8m-pose.onnx --source ../assets/images/bus.jpg --plot
+cargo run --release -- --trt --model ../assets/weights/yolov8m-pose.onnx --source ../assets/images/test.jpg --plot
 ```
 
 ### Instance Segmentation

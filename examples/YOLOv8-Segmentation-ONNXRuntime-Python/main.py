@@ -319,7 +319,7 @@ if __name__ == "__main__":
     # Create an argument parser to handle command-line arguments
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, required=True, help="Path to ONNX model")
-    parser.add_argument("--source", type=str, default=str(ASSETS / "bus.jpg"), help="Path to input image")
+    parser.add_argument("--source", type=str, default=str(ASSETS / "test.jpg"), help="Path to input image")
     parser.add_argument("--conf", type=float, default=0.25, help="Confidence threshold")
     parser.add_argument("--iou", type=float, default=0.45, help="NMS IoU threshold")
     args = parser.parse_args()

@@ -134,7 +134,7 @@ def benchmark(
             assert i != 5 or platform.system() == "Darwin", "inference only supported on macOS>=10.13"  # CoreML
             if i in {12}:
                 assert not is_end2end, "End-to-end torch.topk operation is not supported for NCNN prediction yet"
-            exported_model.predict(ASSETS / "bus.jpg", imgsz=imgsz, device=device, half=half)
+            exported_model.predict(ASSETS / "test.jpg", imgsz=imgsz, device=device, half=half)
 
             # Validate
             data = data or TASK2DATA[model.task]  # task to dataset, i.e. coco8.yaml for task=detect

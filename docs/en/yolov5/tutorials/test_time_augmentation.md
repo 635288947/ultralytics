@@ -115,7 +115,7 @@ Downloading https://github.com/ultralytics/yolov5/releases/download/v5.0/yolov5s
 
 Fusing layers...
 Model Summary: 224 layers, 7266973 parameters, 0 gradients
-image 1/2 /content/yolov5/data/images/bus.jpg: 832x640 4 persons, 1 bus, 1 fire hydrant, Done. (0.029s)
+image 1/2 /content/yolov5/data/images/test.jpg: 832x640 4 persons, 1 bus, 1 fire hydrant, Done. (0.029s)
 image 2/2 /content/yolov5/data/images/zidane.jpg: 480x832 3 persons, 3 ties, Done. (0.024s)
 Results saved to runs/detect/exp
 Done. (0.156s)

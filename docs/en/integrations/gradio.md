@@ -92,7 +92,7 @@ iface = gr.Interface(
     title="Ultralytics Gradio",
     description="Upload images for inference. The Ultralytics YOLO11n model is used by default.",
     examples=[
-        [ASSETS / "bus.jpg", 0.25, 0.45],
+        [ASSETS / "test.jpg", 0.25, 0.45],
         [ASSETS / "zidane.jpg", 0.25, 0.45],
     ],
 )
